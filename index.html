@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iuwakiri - Venda de Produto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Produto em Promoção</h1>
+        <div class="produto">
+            <img src="calca_jeans.jpg" alt="Calça Jeans">
+            <div class="descricao">
+                <h2>Calça Jeans</h2>
+                <p>Calça jeans de alta qualidade.</p>
+                <p>Preço: $119.99</p>
+                <button id="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="carrinho">
+        <h2>Carrinho de Compras</h2>
+        <ul id="lista-carrinho">
+            <!-- Itens do carrinho serão adicionados aqui -->
+        </ul>
+        <p id="total">Total: $0.00</p>
+        <button id="finalizar-compra">Finalizar Compra</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

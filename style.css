@@ -1,0 +1,35 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.produto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.produto img {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.carrinho {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+#lista-carrinho {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lista-carrinho li {
+    margin-bottom: 10px;
+}
+
+#finalizar-compra {
+    display: block;
+    margin-top: 10px;
+}
