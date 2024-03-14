@@ -7,8 +7,9 @@ function adicionarProduto(nome, preco) {
 
 function removerProduto(nome, preco) {
     total -= preco;
-    if (total < 0) {
-        total = 0;
-    }
     document.getElementById('total').innerText = total.toFixed(2);
+}
+
+function comprar() {
+    alert("Obrigado pela sua compra!");
 }

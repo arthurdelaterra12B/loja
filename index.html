@@ -12,23 +12,24 @@
     <div class="produto">
         <h2>Garrafa de Vidro - R$35,00</h2>
         <button onclick="adicionarProduto('Garrafa de Vidro', 35)">Adicionar ao Carrinho</button>
-        <button onclick="removerProduto('Garrafa de Vidro', 35)">Remover do Carrinho</button>
+        <button onclick="removerProduto('Garrafa de Vidro', 35)" class="remover">Remover do Carrinho</button>
     </div>
     
     <div class="produto">
         <h2>Tênis - R$100,00</h2>
         <button onclick="adicionarProduto('Tênis', 100)">Adicionar ao Carrinho</button>
-        <button onclick="removerProduto('Tênis', 100)">Remover do Carrinho</button>
+        <button onclick="removerProduto('Tênis', 100)" class="remover">Remover do Carrinho</button>
     </div>
     
     <div class="produto">
         <h2>Camisa - R$170,00</h2>
         <button onclick="adicionarProduto('Camisa', 170)">Adicionar ao Carrinho</button>
-        <button onclick="removerProduto('Camisa', 170)">Remover do Carrinho</button>
+        <button onclick="removerProduto('Camisa', 170)" class="remover">Remover do Carrinho</button>
     </div>
-    
+
     <h2>Total: R$<span id="total">0.00</span></h2>
-    
+    <button onclick="comprar()" class="comprar">Comprar</button>
+
     <script src="script.js"></script>
 </body>
 </html>
